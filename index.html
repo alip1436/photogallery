@@ -2,11 +2,10 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles.css" rel="stylesheet">
-        <title>Photo gallery</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="styles.css" rel="stylesheet">
+            <title>Photo gallery</title>
 
         </head>
         <body>
@@ -91,18 +90,31 @@
                 <section id="contact">
                     <h2>Contact</h2>
                     <p>Please fill out this form and I’ll connect with you soon.</p>
-                    <fieldset>
-                        <legend>Your contact information</legend> 
-                        Name (Your full name)
-                        Email (Enter your email address)
-                        Message (What can I help you with?)
-                        Submit
-                    </fieldset> 
-
+                    <form>
+                        <fieldset>
+                            <legend>Your contact information</legend> 
+                        
+                        <div>
+                            <label for="my-name">Name</label>
+                            <input id="my-name" name="my-name" type="text" placeholder="YOUR FULL NAME">
+                        </div>
+                        <div>
+                            <label for="my-address">Email</label>
+                            <input id="my-address" name="my-address" type="email" placeholder="ENTER YOUR EMAIL ADDRESS">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <input id="message" name="message" type="text" placeholder="WHAT CAN I HELP YOU WITH?">
+                        </div>
+                        <div class="button">
+                            <input type="submit" name="submit" id="submit" value="Submit">
+                        </div>
+                        </fieldset>
+                    </form>
                 </section>
             </main>
             <footer>
-                <p><small>Copyright 2021 TK Photography</small></p>
+                <p><small>Copyright 2021</small> TK Photography</p>
             </footer>
 
         </body>

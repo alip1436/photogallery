@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* start coding here*/
+
+/*body*/
+body {
+    background-color: black; 
+    padding:25px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white solid 20px;
+}
+/*header & footer*/
+header, footer {
+    text-align: center;
+    
+}
+header {
+    background-color: white;
+
+}
+footer {
+    color:white;
+    padding-top: 10px;
+    
+
+}
+footer p {
+    text-transform: uppercase;
+}
+h1 {
+    color: #007d7b;
+    font-size: 3em;
+    padding: 15px 20px 10px 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+/*nav*/
+nav {
+    background-color: black;
+    padding: 50px;
+}
+nav h2 {
+    visibility:hidden;
+    height:1px;
+}
+nav li {
+    display:inline-flex;
+}
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*main*/
+main {
+    background-color: white;
+}
+/*text*/
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.25em;
+}
+figcaption, label, input, small {
+    font-size:1em;
+    text-align: center;
+}
+label {
+    color: white;
+    text-transform: uppercase;
+}
+/*about*/
+
+/*gallery*/
+
+/*form*/
+form {
+    background-color: black;
+    align-content: center;
+}
+
