@@ -50,23 +50,22 @@ table {
 /*body*/
 body {
     background-color: black; 
-    padding:25px;
+    padding:50px;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: white solid 20px;
+    width:485px;
 }
 /*header & footer*/
 header, footer {
     text-align: center;
     
 }
-header {
-    background-color: white;
 
-}
 footer {
     color:white;
     padding-top: 10px;
+    width:100%;
     
 
 }
@@ -79,11 +78,16 @@ h1 {
     padding: 15px 20px 10px 10px;
     text-transform: uppercase;
     font-weight: bolder;
+    background-color: white;
+    position:fixed;
+    top:0px;
+    
+
 }
 /*nav*/
 nav {
     background-color: black;
-    padding: 50px;
+    padding: 25px;
 }
 nav h2 {
     visibility:hidden;
@@ -91,6 +95,7 @@ nav h2 {
 }
 nav li {
     display:inline-flex;
+    align-items: center;
 }
 nav a {
     font-size: 1.5em;
@@ -98,10 +103,33 @@ nav a {
     color:white;
     text-align: center;
     text-transform: uppercase;
+    padding:10px;
 }
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+    background-color:rgba(44, 39, 39, 0.35);
+    padding: 10px; 
+}
+:focus {
+    color:#007d7b;
+    outline: 5px double #007d7b;
+}
+a:hover{
+    background-color: #007d7b;
+    color: black;
+    border-radius:10px 0 10px 0px;
+    padding: 5px; 
+}
+
 /*main*/
 main {
-    background-color: white;
+    background-color: black;
+    margin-top: 0;
+    padding: 20px;
+    position: relative;
 }
 /*text*/
 h2 {
@@ -109,25 +137,91 @@ h2 {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    padding: 10px;
 }
 p {
     font-size: 1.25em;
+    line-height: 1.5em;
 }
 figcaption, label, input, small {
     font-size:1em;
     text-align: center;
 }
-label {
-    color: white;
-    text-transform: uppercase;
-}
+
 /*about*/
+#about {
+    background-color: white;
+    padding: 10px;
+}
 
 /*gallery*/
-
+#gallery {
+    background-color: white;
+    padding: 10px;
+}
+figure {
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+figcaption{
+    color:white; 
+    position: absolute;
+    top: 20px;
+    bottom: 125px;
+    left: 175px;
+    text-transform: uppercase;
+    
+}
+#chile, #hawaii, #italy, #moab{
+    top: 85%;
+    left:40%;
+    
+}
+#iran, #ireland, #italy, #colorado, #uk, #switzerland, #usa {
+    color: black;
+}
+    
 /*form*/
-form {
+#contact {
     background-color: black;
-    align-content: center;
+}
+form {
+    color: white;
+    text-align: center;
+}   
+div {
+    width:fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+label {
+    display:block;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 5px;
+}
+
+
+#submit {
+    background-color:#007d7b;
+    color: white;
+    border-radius:10px 10px 10px 10px;
+    padding:5px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    width:325px;
+}
+input::placeholder {
+    text-align: left;
+    color:#007d7b;
 }
 

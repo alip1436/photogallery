@@ -15,101 +15,103 @@
                     <h2>Main Navigation</h2>
                         <ul>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#about">Gallery</a></li>
-                            <li><a href="#about">Contact</a></li>
-                            <li><a href="#about" class="top">top</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#top">top</a></li>
                         </ul>
                 </nav>
             </header>
             <main>
                 <section id="about">
                     <h2>About</h2>
-                        <p>Hello!<br> I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
+                        <p>Hello!</p><br> 
+                        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
                 </section>
                 <section id="gallery">
                     <h2>Gallery</h2>
                         <p>Here are some highlights of my work. The locations and year are in the caption.</p>
-                    <figure>
+                    <figure >
                         <img src="images/Chile.png" alt="coastal picture of chile">
-                        <figcaption class="imagecaption">
+                        <figcaption id="chile">
                             Chile, 2001
                         </figcaption>
                     </figure>
                     <figure>
                         <img src="images/Guatemala.png" alt="waterfront image in Guatemala">
-                        <figcaption class="imagecaption">
+                        <figcaption id="guatemala">
                             Guatemala, 1997
                         </figcaption>
                     </figure>  
                     <figure>
                         <img src="images/Hawaii.png" alt="arial view of Hawaii mountains and coast">
-                        <figcaption class="imagecaption">
+                        <figcaption id="hawaii">
                             Hawaii, 2010
                         </figcaption>
                     </figure>  
                     <figure>
                         <img src="images/Iran.png" alt="valley view as the sun rises">
-                        <figcaption class="imagecaption">
+                        <figcaption id="iran">
                             Iran, 1999
                         </figcaption>
                     </figure>
                     <figure>
                         <img src="images/Ireland.png" alt="Irish grassy hillside">
-                        <figcaption class="imagecaption">Ireland, 2012</figcaption>
+                        <figcaption id="ireland">Ireland, 2012</figcaption>
                     </figure>
                     <figure>
                         <img src="images/Italy.png" alt="Mountain and lake scene in Italy">
-                        <figcaption class="imagecaption">Italy, 2015</figcaption>
+                        <figcaption id="italy">Italy, 2015</figcaption>
                     </figure>
                     <figure>
                         <img src="images/Moab-Desert.png" alt="Moab arch with sun setting">
-                        <figcaption class="imagecaption">Moab Desert, 2020</figcaption>
+                        <figcaption id="moab">Moab Desert, 2020</figcaption>
                     </figure>
                     <figure>
                         <img src="images/Rocky-Mountains.png" alt="Snowy rocky mountain peaks in Colorado">
-                        <figcaption class="imagecaption">Rocky Mountains, 2009</figcaption>
+                        <figcaption id="colorado">Rocky Mountains, 2009</figcaption>
                     </figure>
                     <figure>
                         <img src="images/Switzerland.png" alt="Snowy Switzerland mountain side">
-                        <figcaption class="imagecaption">Switzerland, 2014</figcaption>
+                        <figcaption id="switzerland">Switzerland, 2014</figcaption>
                     </figure>
                     <figure>
                         <img src="images/UK.png" alt="Green meadow view in the UK">
-                        <figcaption class="imagecaption">UK, 2005</figcaption>
+                        <figcaption id="uk">UK, 2005</figcaption>
                     </figure>
                     <figure>
                         <img src="images/USA.png" alt="Meadow of flowers in the USA">
-                        <figcaption class="imagecaption">USA, 2021</figcaption>
+                        <figcaption id="usa">USA, 2021</figcaption>
                     </figure>
                     <figure>
                         <img src="images/Wyoming.png" alt="Wyoming mountain scape with lake">
-                        <figcaption class="imagecaption">Wyoming, 2021</figcaption>
+                        <figcaption id="wyoming">Wyoming, 2021</figcaption>
                     </figure>
 
                 </section>
                 <section id="contact">
+                    <form>
                     <h2>Contact</h2>
                     <p>Please fill out this form and I’ll connect with you soon.</p>
-                    <form>
-                        <fieldset>
-                            <legend>Your contact information</legend> 
-                        
-                        <div>
-                            <label for="my-name">Name</label>
-                            <input id="my-name" name="my-name" type="text" placeholder="YOUR FULL NAME">
-                        </div>
-                        <div>
-                            <label for="my-address">Email</label>
-                            <input id="my-address" name="my-address" type="email" placeholder="ENTER YOUR EMAIL ADDRESS">
-                        </div>
-                        <div>
-                            <label for="message">Message</label>
-                            <input id="message" name="message" type="text" placeholder="WHAT CAN I HELP YOU WITH?">
-                        </div>
-                        <div class="button">
-                            <input type="submit" name="submit" id="submit" value="Submit">
-                        </div>
-                        </fieldset>
+                    
+                    <fieldset>
+                        <legend>Your contact information</legend> 
+                    </fieldset>
+                    <div>
+                        <label for="my-name">Name</label>
+                        <input id="my-name" name="my-name" type="text" placeholder="YOUR FULL NAME">
+                    </div>
+                    <div>
+                        <label for="my-address">Email</label>
+                        <input id="my-address" name="my-address" type="email" placeholder="ENTER YOUR EMAIL ADDRESS">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <input id="message" name="message" type="text" placeholder="WHAT CAN I HELP YOU WITH?">
+                    </div>
+                    <div class="button">
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </div>
+                    
                     </form>
                 </section>
             </main>
