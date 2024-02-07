@@ -126,7 +126,7 @@ a:hover{
 
 /*main*/
 main {
-    background-color: black;
+    
     margin-top: 0;
     padding: 20px;
     position: relative;
@@ -193,7 +193,7 @@ form {
     color: white;
     text-align: center;
 }   
-div {
+form div {
     width:fit-content;
     margin: 0 auto;
     padding: 10px;
@@ -224,4 +224,47 @@ input::placeholder {
     text-align: left;
     color:#007d7b;
 }
-
+legend {
+    visibility: hidden;
+}
+/*query*/
+@media screen and (min-width:880px) {
+    body {
+        width: 880px;
+    }
+    .imagegallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        padding-right: 400px;
+       
+        padding-left: 10px;
+    }
+    input {
+        width:500px;
+    }
+}
+@media screen and (min-width:1300px) {
+    body {
+        width: 1300px;
+    }
+    .imagegallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1 {
+        padding-right: 815px;
+       
+        padding-left: 10px;
+    }
+    nav {
+        align-items: end;
+        display:flex;
+        flex-direction:row;
+        justify-content: right;
+    }
+    input {
+        width:800px;
+    }
+}
